@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20141128 13:38:02.886" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
+<robot generated="20141128 18:25:57.872" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
 <suite source="/home/lorie/Documents/Python2/robot/test/robot" id="s1" name="Robot">
 <suite source="/home/lorie/Documents/Python2/robot/test/robot/tests" id="s1-s1" name="Tests">
 <suite source="/home/lorie/Documents/Python2/robot/test/robot/tests/bank.txt" id="s1-s1-s1" name="Bank">
@@ -14,9 +14,9 @@
 <arg>${account_number}</arg>
 <arg>${balance}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 13:38:03.045" starttime="20141128 13:38:03.045"></status>
+<status status="PASS" endtime="20141128 18:25:58.065" starttime="20141128 18:25:58.065"></status>
 </kw>
-<status status="PASS" endtime="20141128 13:38:03.045" starttime="20141128 13:38:03.044"></status>
+<status status="PASS" endtime="20141128 18:25:58.065" starttime="20141128 18:25:58.065"></status>
 </kw>
 <kw type="kw" name="steps.When I retrieve the account 1111">
 <doc></doc>
@@ -26,16 +26,16 @@
 <doc></doc>
 <arguments>
 </arguments>
-<status status="PASS" endtime="20141128 13:38:03.050" starttime="20141128 13:38:03.046"></status>
+<status status="PASS" endtime="20141128 18:25:58.071" starttime="20141128 18:25:58.066"></status>
 </kw>
 <kw type="kw" name="robotLibrary.Enter Account">
 <doc></doc>
 <arguments>
 <arg>${account_number}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 13:38:03.060" starttime="20141128 13:38:03.050"></status>
+<status status="PASS" endtime="20141128 18:25:58.079" starttime="20141128 18:25:58.071"></status>
 </kw>
-<status status="PASS" endtime="20141128 13:38:03.061" starttime="20141128 13:38:03.045"></status>
+<status status="PASS" endtime="20141128 18:25:58.079" starttime="20141128 18:25:58.066"></status>
 </kw>
 <kw type="kw" name="steps.And the balance should be 50">
 <doc></doc>
@@ -46,98 +46,44 @@
 <arguments>
 <arg>${balance}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 13:38:03.062" starttime="20141128 13:38:03.061"></status>
+<status status="PASS" endtime="20141128 18:25:58.080" starttime="20141128 18:25:58.080"></status>
 </kw>
-<status status="PASS" endtime="20141128 13:38:03.062" starttime="20141128 13:38:03.061"></status>
-</kw>
-<doc></doc>
-<tags>
-</tags>
-<status status="PASS" endtime="20141128 13:38:03.062" critical="yes" starttime="20141128 13:38:03.043"></status>
-</test>
-<test id="s1-s1-s1-t2" name="Retrieve customer balance">
-<kw type="kw" name="steps.Given I create the account 1111 with balance 50">
-<doc></doc>
-<arguments>
-</arguments>
-<kw type="kw" name="robotLibrary.Create Account">
-<doc></doc>
-<arguments>
-<arg>${account_number}</arg>
-<arg>${balance}</arg>
-</arguments>
-<status status="PASS" endtime="20141128 13:38:03.065" starttime="20141128 13:38:03.064"></status>
-</kw>
-<status status="PASS" endtime="20141128 13:38:03.065" starttime="20141128 13:38:03.063"></status>
-</kw>
-<kw type="kw" name="steps.When I retrieve the account 1111">
-<doc></doc>
-<arguments>
-</arguments>
-<kw type="kw" name="robotLibrary.Visit Homepage">
-<doc></doc>
-<arguments>
-</arguments>
-<status status="PASS" endtime="20141128 13:38:03.066" starttime="20141128 13:38:03.066"></status>
-</kw>
-<kw type="kw" name="robotLibrary.Enter Account">
-<doc></doc>
-<arguments>
-<arg>${account_number}</arg>
-</arguments>
-<status status="PASS" endtime="20141128 13:38:03.068" starttime="20141128 13:38:03.066"></status>
-</kw>
-<status status="PASS" endtime="20141128 13:38:03.069" starttime="20141128 13:38:03.065"></status>
-</kw>
-<kw type="kw" name="steps.And the balance should be 1000">
-<doc></doc>
-<arguments>
-</arguments>
-<kw type="kw" name="robotLibrary.Get Balance">
-<doc></doc>
-<arguments>
-<arg>${balance}</arg>
-</arguments>
-<msg timestamp="20141128 13:38:03.101" level="FAIL">'Balance: 1000' not found in u'&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n\t&lt;title&gt;Bank App&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n\n    &lt;form id="account-form"&gt;\n\t  &lt;label&gt;Account Number: &lt;/label&gt;&lt;input name="account_number" type="text"/&gt;\n\t  &lt;input type="submit"/&gt;\n    &lt;/form&gt;\n\n    \n    Balance: 50\n    \n\n\n  &lt;/body&gt;\n&lt;/html&gt;'</msg>
-<status status="FAIL" endtime="20141128 13:38:03.101" starttime="20141128 13:38:03.069"></status>
-</kw>
-<status status="FAIL" endtime="20141128 13:38:03.102" starttime="20141128 13:38:03.069"></status>
+<status status="PASS" endtime="20141128 18:25:58.080" starttime="20141128 18:25:58.079"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="FAIL" endtime="20141128 13:38:03.102" critical="yes" starttime="20141128 13:38:03.063">'Balance: 1000' not found in u'&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n\t&lt;title&gt;Bank App&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n\n    &lt;form id="account-form"&gt;\n\t  &lt;label&gt;Account Number: &lt;/label&gt;&lt;input name="account_number" type="text"/&gt;\n\t  &lt;input type="submit"/&gt;\n    &lt;/form&gt;\n\n    \n    Balance: 50\n    \n\n\n  &lt;/body&gt;\n&lt;/html&gt;'</status>
+<status status="PASS" endtime="20141128 18:25:58.080" critical="yes" starttime="20141128 18:25:58.064"></status>
 </test>
 <doc>Example Robot tests for
 Bank application</doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20141128 13:38:03.102" starttime="20141128 13:38:02.907"></status>
+<status status="PASS" endtime="20141128 18:25:58.081" starttime="20141128 18:25:57.915"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20141128 13:38:03.103" starttime="20141128 13:38:02.905"></status>
+<status status="PASS" endtime="20141128 18:25:58.082" starttime="20141128 18:25:57.913"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="FAIL" endtime="20141128 13:38:03.103" starttime="20141128 13:38:02.886"></status>
+<status status="PASS" endtime="20141128 18:25:58.082" starttime="20141128 18:25:57.872"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="1" pass="1">Critical Tests</stat>
-<stat fail="1" pass="1">All Tests</stat>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="1" pass="1" id="s1" name="Robot">Robot</stat>
-<stat fail="1" pass="1" id="s1-s1" name="Tests">Robot.Tests</stat>
-<stat fail="1" pass="1" id="s1-s1-s1" name="Bank">Robot.Tests.Bank</stat>
+<stat fail="0" pass="1" id="s1" name="Robot">Robot</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Tests">Robot.Tests</stat>
+<stat fail="0" pass="1" id="s1-s1-s1" name="Bank">Robot.Tests.Bank</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20141128 13:38:03.062" level="WARN">Multiple test cases with name 'Retrieve customer balance' executed in test suite 'Robot.Tests.Bank'.</msg>
 </errors>
 </robot>
